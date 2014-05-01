@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D7141F4717749A884708C70 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6ECC4D3F8AB4D4FA76818AB /* libPods.a */; };
 		B588B82519129B770019F5C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588B82419129B770019F5C3 /* Foundation.framework */; };
 		B588B82719129B770019F5C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588B82619129B770019F5C3 /* CoreGraphics.framework */; };
 		B588B82919129B770019F5C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588B82819129B770019F5C3 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		B588B84619129B770019F5C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B588B82819129B770019F5C3 /* UIKit.framework */; };
 		B588B84E19129B770019F5C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B588B84C19129B770019F5C3 /* InfoPlist.strings */; };
 		B588B85019129B770019F5C3 /* SampleAppiraterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B588B84F19129B770019F5C3 /* SampleAppiraterTests.m */; };
+		B588B85B1912A5ED0019F5C3 /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B588B85D1912A5ED0019F5C3 /* AppiraterLocalizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6ECC4D3F8AB4D4FA76818AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B588B82119129B770019F5C3 /* SampleAppirater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppirater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B588B82419129B770019F5C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B588B82619129B770019F5C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,13 @@
 		B588B84B19129B770019F5C3 /* SampleAppiraterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAppiraterTests-Info.plist"; sourceTree = "<group>"; };
 		B588B84D19129B770019F5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B588B84F19129B770019F5C3 /* SampleAppiraterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppiraterTests.m; sourceTree = "<group>"; };
+		B588B85C1912A5ED0019F5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
+		B588B85E1912A6510019F5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
+		B588B85F1912AE620019F5C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		B588B8601912AE620019F5C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B588B8611912AE620019F5C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
+		B588B8621912AE620019F5C3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0C3748EE41243B4B91A3DCD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				B588B82719129B770019F5C3 /* CoreGraphics.framework in Frameworks */,
 				B588B82919129B770019F5C3 /* UIKit.framework in Frameworks */,
 				B588B82519129B770019F5C3 /* Foundation.framework in Frameworks */,
+				3D7141F4717749A884708C70 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,7 @@
 				B588B84919129B770019F5C3 /* SampleAppiraterTests */,
 				B588B82319129B770019F5C3 /* Frameworks */,
 				B588B82219129B770019F5C3 /* Products */,
+				E0C3748EE41243B4B91A3DCD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,7 @@
 				B588B82619129B770019F5C3 /* CoreGraphics.framework */,
 				B588B82819129B770019F5C3 /* UIKit.framework */,
 				B588B84319129B770019F5C3 /* XCTest.framework */,
+				A6ECC4D3F8AB4D4FA76818AB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,6 +143,7 @@
 				B588B82D19129B770019F5C3 /* InfoPlist.strings */,
 				B588B83019129B770019F5C3 /* main.m */,
 				B588B83219129B770019F5C3 /* SampleAppirater-Prefix.pch */,
+				B588B85D1912A5ED0019F5C3 /* AppiraterLocalizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B588B85319129B770019F5C3 /* Build configuration list for PBXNativeTarget "SampleAppirater" */;
 			buildPhases = (
+				F7E2D4FC93AA49BB962295F6 /* Check Pods Manifest.lock */,
 				B588B81D19129B770019F5C3 /* Sources */,
 				B588B81E19129B770019F5C3 /* Frameworks */,
 				B588B81F19129B770019F5C3 /* Resources */,
+				2710B78B2B5F43C493675815 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +227,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = B588B81819129B770019F5C3;
 			productRefGroup = B588B82219129B770019F5C3 /* Products */;
@@ -230,6 +247,7 @@
 			files = (
 				B588B83D19129B770019F5C3 /* Images.xcassets in Resources */,
 				B588B82F19129B770019F5C3 /* InfoPlist.strings in Resources */,
+				B588B85B1912A5ED0019F5C3 /* AppiraterLocalizable.strings in Resources */,
 				B588B83819129B770019F5C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +261,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2710B78B2B5F43C493675815 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E2D4FC93AA49BB962295F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B588B81D19129B770019F5C3 /* Sources */ = {
@@ -278,6 +329,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B588B82E19129B770019F5C3 /* en */,
+				B588B8601912AE620019F5C3 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -286,6 +338,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B588B83719129B770019F5C3 /* Base */,
+				B588B85F1912AE620019F5C3 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -294,8 +347,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				B588B84D19129B770019F5C3 /* en */,
+				B588B8621912AE620019F5C3 /* ja */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B588B85D1912A5ED0019F5C3 /* AppiraterLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B588B85C1912A5ED0019F5C3 /* Base */,
+				B588B85E1912A6510019F5C3 /* en */,
+				B588B8611912AE620019F5C3 /* ja */,
+			);
+			name = AppiraterLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,6 +437,7 @@
 		};
 		B588B85419129B770019F5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C3748EE41243B4B91A3DCD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +451,7 @@
 		};
 		B588B85519129B770019F5C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C3748EE41243B4B91A3DCD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +522,7 @@
 				B588B85519129B770019F5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B588B85619129B770019F5C3 /* Build configuration list for PBXNativeTarget "SampleAppiraterTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +531,7 @@
 				B588B85819129B770019F5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
